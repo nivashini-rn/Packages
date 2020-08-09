@@ -6,7 +6,8 @@ import pkbanking.pkinterface.InterestRate;
 public class FDAccount extends Account  implements InterestRate  {
     int period;
 
-    public FDAccount(int accnumber,int period,double balance) {
+    public FDAccount(int accnumber,int period,double balance)
+    {
         super(accnumber, balance);
         this.period = period;
     }

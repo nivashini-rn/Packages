@@ -2,7 +2,8 @@ import pkcustomer.Customer;
 import java.util.*;
 
 public class BankDemo {
-    public static void main(String arg[]) {
+    public static void main(String arg[])
+    {
         Scanner sc = new Scanner(System.in);
         Customer c[] = new Customer[5];
         int ch1, ch2, ch3, cid, i = 0;
@@ -48,6 +49,7 @@ public class BankDemo {
                     System.out.println("Invalid choice");
             }
         } while (ch1 != 3);
+
     }
 
 }

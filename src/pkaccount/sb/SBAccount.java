@@ -4,7 +4,8 @@ import pkaccount.Account;
 import pkbanking.pkinterface.InterestRate;
 import pkbanking.pkinterface.Transaction;
 
-public class SBAccount extends Account implements Transaction, InterestRate  {
+public class SBAccount extends Account implements Transaction, InterestRate
+{
 
     @Override
     public void withdraw(double amount) {

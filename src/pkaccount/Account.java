@@ -1,6 +1,7 @@
 package pkaccount;
 
-abstract public class Account {
+abstract public class Account
+{
     public int accnumber;
     public double balance;
 
